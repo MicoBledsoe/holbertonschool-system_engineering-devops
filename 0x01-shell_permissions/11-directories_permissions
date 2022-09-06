@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R +111 /holbertonschool-system_engineering-devops
+chmod -R /holbertonschool-system_engineering-devops

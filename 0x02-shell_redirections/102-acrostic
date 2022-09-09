@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{print $1}' your_file
+cut -c 2- <102-acrostic>

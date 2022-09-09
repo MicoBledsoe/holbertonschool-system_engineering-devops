@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d' ' -f1 file
+awk '{print $1}' your_file

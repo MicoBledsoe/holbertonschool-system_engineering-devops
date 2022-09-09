@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 2- <102-acrostic>
+tr -c 1 | tr -s -d

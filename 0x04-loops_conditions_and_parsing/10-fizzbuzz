@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
-#Script Loops 10
+#Program that prints FizzBuzz sequence
 for i in {1..100}
 do
-        if ( ((i % 15 == 0)) )
-    then
-        echo "FizzBuzz"
+        if ( ((i % 15 == 0)) )
+    then
+        echo "FizzBuzz"
 elif ( ((i % 5 == 0)) )
-    then
-        echo "Buzz"
+    then
+        echo "Buzz"
 elif ( ((i % 3 == 0)) )
-    then
-        echo "Fizz"
-    else
-        echo "$i"
-    fi
+    then
+        echo "Fizz"
+    else
+        echo "$i"
+    fi
 done

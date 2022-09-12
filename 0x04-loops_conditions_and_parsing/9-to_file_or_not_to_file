@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Script Loop 9
-file="holbertonschool"
+file="school"
 if [ -e $file ]
 then
     echo "$file file exists"

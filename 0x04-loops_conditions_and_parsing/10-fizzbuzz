@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Loop Script 10
+#Script Loops 10
 for i in {1..100}
 do
         if ( ((i % 15 == 0)) )

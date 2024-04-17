@@ -1,19 +1,54 @@
-This question has become a classic and continues to be a popular interview question for various software engineering roles. It is designed to evaluate a candidate's overall understanding of how the web stack operates on top of the internet. To effectively answer this question, it's crucial to inquire whether the interviewer wants you to focus on a specific aspect of the workflow. For a front-end role, they might expect a detailed discussion about DOM rendering. For an SRE role, they could be more interested in load balancing mechanisms.
+### Understanding the Web Request Cycle
 
-This question serves as a good test of your knowledge of DNS. Many software engineering candidates find this topic challenging, so if you can answer this question well, you'll stand out from the competition. Taking this project seriously and crafting an outstanding article could catch the eye of potential employers.
+In this project, we delve into the complex process that unfolds when you enter a URL into your browser and press Enter. This exploration not only enhances our understanding of how the internet works but also prepares us for discussions related to various technical roles in software engineering.
 
-Compose a blog post that explains the process that occurs when you type https://www.holbertonschool.com into your browser and press Enter.
+#### Table of Contents
 
-Your post should cover the following topics:
+- [Overview](#overview)
+- [DNS Resolution](#dns-resolution)
+- [TCP/IP Connection](#tcpip-connection)
+- [Firewall Considerations](#firewall-considerations)
+- [HTTPS and SSL](#https-and-ssl)
+- [Load Balancing](#load-balancing)
+- [Web and Application Servers](#web-and-application-servers)
+- [Database Interaction](#database-interaction)
+- [Conclusion](#conclusion)
 
-DNS request
-TCP/IP
-Firewall
-HTTPS/SSL
-Load balancer
-Web server
-Application server
-Database
-Publish your blog post on Medium or LinkedIn, and share the URL of your blog post in your answer file and in the field provided.
+#### Overview
 
-Please note that these blogs should be written in English to enhance your technical skills in various settings.
+This README outlines the sequence of events from making a DNS request to fetching a webpage. This knowledge is essential for roles in software development, network administration, and system engineering.
+
+#### DNS Resolution
+
+Understanding DNS (Domain Name System) is fundamental in the web request process. When you enter a URL, a DNS request is initiated to translate the domain name into an IP address.
+
+#### TCP/IP Connection
+
+After resolving the IP address, a TCP/IP connection is established between your browser and the server hosting the website. This step involves a three-way handshake crucial for setting up a reliable session.
+
+#### Firewall Considerations
+
+Firewalls play a critical role in securing the data transmission, allowing or blocking data packets based on predetermined security rules.
+
+#### HTTPS and SSL
+
+Secure HTTP (HTTPS) and SSL (Secure Sockets Layer) ensure that the data exchanged between your browser and the web server is encrypted and secure from eavesdroppers.
+
+#### Load Balancing
+
+In high-traffic scenarios, load balancers distribute incoming network traffic across multiple servers to ensure no single server bears too much load, thus maintaining speed and efficiency.
+
+#### Web and Application Servers
+
+The web server handles the HTTP request and responds with the necessary content. Often, this interaction involves communication with an application server, which generates dynamic content by running backend code.
+
+#### Database Interaction
+
+For dynamic websites, a database query may be necessary to fetch data that the application server uses to generate the webpage.
+
+#### Conclusion
+
+Understanding each step of the web request process provides a comprehensive insight into the technical components and operations that come together to display the content of a website. This knowledge is indispensable in the fields of web development and network management.
+
+## Collaborators
+Mico Bledsoe - LinkedIn(www.linkedin.com/in/micobledsoe)

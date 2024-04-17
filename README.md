@@ -37,21 +37,5 @@ git clone https://github.com/MicoBledsoe/holbertonschool-system_engineering-devo
 Navigate into the repository:
 cd holbertonschool-system_engineering-devops
 
-
-### Part 4: Contribution Guidelines
-#```markdown
-## Contributing
-
-Interested in contributing? We love pull requests! Here's how you can contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Create a new Pull Request.
-
-Please make sure to update tests as appropriate and ensure your code adheres to the existing style when contributing.
-
 ## Collaborators
 Mico Bledsoe - LinkedIn Profile(www.linkedin.com/in/micobledsoe)

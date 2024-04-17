@@ -1,4 +1,4 @@
-### Project: Shell Redirections and Filters
+# Project: Shell Redirections and Filters
 
 This project delves into the manipulation of input and output in Bash, exploring various commands that facilitate searching, handling, and transforming text data.
 

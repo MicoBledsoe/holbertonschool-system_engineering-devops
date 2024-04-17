@@ -45,17 +45,5 @@ To display the effective username of the current user:
 To set all permissions to rwx for everyone on a file named hello:
 chmod 777 hello
 
-
-### Section 5: Contributions
-#```markdown
-#### Contributions
-
-Contributions to this project are welcome! To contribute, please follow these steps:
-- Fork the repository.
-- Create a new branch with your feature: `git checkout -b my-new-feature`.
-- Commit your changes: `git commit -am 'Add some feature'`.
-- Push to the branch: `git push origin my-new-feature`.
-- Submit a pull request.
-
 ## Collaborators
 Mico Bledsoe - LinkedIn(www.linkedin.com/in/micobledsoe)
